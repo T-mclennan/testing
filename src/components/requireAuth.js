@@ -30,5 +30,5 @@ export default (ChildComponent) => {
     };
   }
 
-  return connect(mapStateToProps)(ComposedComponent);
+  return connect(mapStateToProps)(ComposedClass);
 };
